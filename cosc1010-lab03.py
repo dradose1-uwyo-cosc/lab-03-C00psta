@@ -30,7 +30,7 @@ print(States[0])
 print(States[-1])
 
 #Using an F-string to access the first and second element print the string "COLORADO is south of WYOMING", matching the casing provided
-print(f"{States[1]} is south of {States[0]}")
+print(f"{States[1].upper()} is south of {States[0].upper()}")
 
 
 
