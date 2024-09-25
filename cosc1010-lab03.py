@@ -57,7 +57,7 @@ print("Part Three---------------------------------------------------------------
 print(sorted(States))
 print(States)
 #Permanently sort your list in reverse order, printing it out
-States.reverse()
+States.sort(reverse=True)
 print(States)
 
 #Using the reverse method reverse the list and print it
